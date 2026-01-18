@@ -10,7 +10,7 @@ fn main() {
 }
 
 fn return_instance() {
-    println!("\n\n\tReturn Instance\n\n");
+    println!("\n\n\tReturn Instance more\n\n");
 
     let mut user1 = build_user(String::from("bigmanuser"),
                                String::from("bigman@example.com"));
