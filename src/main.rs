@@ -197,7 +197,7 @@ fn ownership_of_struct_data() {
     println!("\n\nOwnership of Struct Data\n");
 //     let user1 = User2 {
 //         active: true,
-//         username: "someusername123",
+//         username: "some username123",
 //         email: "someone@example.com",
 //         sign_in_count: 1,
 //     };
@@ -249,7 +249,7 @@ fn return_instance() {
     // let user2 = User {
     //     active: user1.active,
     //     username: user1.username,
-    //     email: Strring::from("another@example.com"),
+    //     email: String::from("another@example.com"),
     //     sign_in_count: user1.sign_in_count,
     // };
 
@@ -287,7 +287,7 @@ fn struct_mutable() {
 
     let mut user1 = User {
         active: true,
-        username: String::from("someusername123"),
+        username: String::from("some username123"),
         email:String::from("someone@example.com"),
         sign_in_count: 1,
     };
@@ -301,7 +301,7 @@ fn struct_immutable() {
 
     let user1 = User {
         active: true,
-        username: String::from("someusername123"),
+        username: String::from("some username123"),
         email:String::from("someone@example.com"),
         sign_in_count: 1,
     };
@@ -312,7 +312,7 @@ struct User {
     active: bool,
     username: String,
     email: String,
-    sign_in_count: u64,
+    pub sign_in_count: u64,
 }
 
 
